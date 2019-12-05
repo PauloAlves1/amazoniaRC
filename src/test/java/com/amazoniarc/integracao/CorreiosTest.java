@@ -7,10 +7,6 @@ import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-import javax.xml.bind.JAXBContext;
-
-import java.io.IOException;
-
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.when;
 

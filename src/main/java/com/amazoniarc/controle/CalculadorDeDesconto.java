@@ -5,9 +5,10 @@ import com.amazoniarc.servicos.Desconto;
 
 public class CalculadorDeDesconto {
 	
-	public void CalculaDesconto(Produto produto, Desconto tipoDesconto) {
+	public double CalculaDesconto(Produto produto, Desconto tipoDesconto) {
 		
 			double valorDesconto = tipoDesconto.calcula(produto);
 			System.out.println(valorDesconto);
+		return valorDesconto;
 	}
 }

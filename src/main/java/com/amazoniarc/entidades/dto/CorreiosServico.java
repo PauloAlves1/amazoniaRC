@@ -16,7 +16,4 @@ public class CorreiosServico {
 		return cServico;
 	}
 
-	public void setcServicos(CServico cServico) {
-		this.cServico = cServico;
-	}
 }
