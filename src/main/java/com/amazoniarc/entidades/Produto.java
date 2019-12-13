@@ -12,22 +12,27 @@ public class Produto {
 	private String avisoRecebimento;
 	private String servico;
 	private String valorDeclarado;
-	private String retorno;	
+	private String retorno;
+	private Boolean midiaDigital;
 	
 	public double getValor() {
 		return valor;
 	}
 
-	public Produto() {
-		
+
+	public boolean getMidiaDigital() {
+		return midiaDigital;
 	}
+/*	public Produto() {
+		
+	}*/
 	
 	public Produto(double valor) {
 		this.valor = valor;
 	}
 	
 	
-	public Produto(double valor, String peso, String comprimento, String altura, String largura, String diametro, String formato, String maoPropria, String avisoRecebimento, String valorDeclarado, String servico, String retorno) {
+	public Produto(double valor, String peso, String comprimento, String altura, String largura, String diametro, String formato, String maoPropria, String avisoRecebimento, String valorDeclarado, String servico, String retorno, boolean midiaDigital) {
 		this.valor = valor;
 		this.peso = peso;
 		this.comprimento = comprimento;
@@ -40,6 +45,7 @@ public class Produto {
 		this.valorDeclarado = valorDeclarado;
 		this.servico = servico;
 		this.retorno = retorno;
+		this.midiaDigital = midiaDigital;
 	}
 	
 	public String requestUrl() {

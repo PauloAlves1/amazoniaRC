@@ -28,9 +28,9 @@ public class TestaTudo {
 		
 		//gerando produtos e colocando num hashmap
 		Produto produto = new Produto(500.00);
-		Produto produto1 = new Produto(500.00, "1.0", "50", "2", "25", "0.0", "1", "N", "N", "0,00", "04510", "xml");
-		Produto produto2 = new Produto(300.00, "0.3", "30", "2", "15", "0.0", "1", "N", "N", "0,00", "04510", "xml");
-		Produto produto3 = new Produto(50.00, "0.5", "15", "2", "10", "0.0", "1", "N", "N", "0,00", "04510", "xml");
+		Produto produto1 = new Produto(500.00, "1.0", "50", "2", "25", "0.0", "1", "N", "N", "0,00", "04510", "xml", false);
+		Produto produto2 = new Produto(300.00, "0.3", "30", "2", "15", "0.0", "1", "N", "N", "0,00", "04510", "xml", false);
+		Produto produto3 = new Produto(50.00, "0.5", "15", "2", "10", "0.0", "1", "N", "N", "0,00", "04510", "xml", false);
 		Map<Produto, String> produtoHashMap = new HashMap<>();
 		produtoHashMap.put(produto1, "maxsteel"); 
 		produtoHashMap.put(produto2,"avengers: o ultimato");

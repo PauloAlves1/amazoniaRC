@@ -28,7 +28,7 @@ public class CalculadorDeFreteTest {
     public void setUp() throws Exception {
 
         produto = new Produto(500.00, "1.0", "50", "2", "25", "0.0",
-                "1", "N", "N", "0,00", "04510", "xml");
+                "1", "N", "N", "0,00", "04510", "xml", false);
 
         xmlRespostaCorreios = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?><Servicos><cServico><Codigo>04510" +
                 "</Codigo><Valor>24,80</Valor><PrazoEntrega>8</PrazoEntrega><ValorSemAdicionais>24,80</ValorSemAdicionais>" +
